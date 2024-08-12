@@ -1,0 +1,141 @@
+.footer {
+  background: #AA0601;
+  color: #ffffff;
+  padding-top: 48px;
+  padding-bottom: 32px;
+  .footer-info {
+      .menu {
+          display: flex;
+      }
+      img {
+          width: 48px;
+          height: 48px;
+      }
+      span {
+          font-size: 48px;
+      }
+  }
+  .social-list {
+      display: flex;
+      .social-list-item {
+          margin-left: 32px;
+      }
+      img {
+          width: 48px;
+          height: 48px;
+      }
+  }
+  .line-through {
+      color: #ffffff;
+  }
+  .copyright-section {
+      display: flex;
+      justify-content: space-between;
+      .rule-list {
+          display: flex;
+          li {
+              margin-left: 48px;
+          }
+      }
+  }
+  @include pad {
+    .social-list {
+      .social-list-item {
+          margin-left: 16px;
+      }
+      img {
+          width: 40px;
+          height: 40px;
+      }
+    }
+  }
+  @include mobile {
+      .footer-info {
+        .menu {
+            display: none;
+        }
+        img {
+            width: 20px;
+            height: 20px;
+        }
+        span {
+            font-size: 24px;
+        }
+    }
+    .social-list {
+        .social-list-item {
+            margin-left: 8px;
+        }
+        img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+    .copyright-section {
+        flex-direction: column;
+        p {
+            margin-bottom: 8px;
+        }
+        .rule-list {
+            flex-direction: column;
+            li {
+                margin-left: 0px;
+                margin-bottom: 8px;
+            }
+        }
+    }
+  }
+}
+
+// @media (max-width:992px) {
+//   .footer {
+//       .social-list {
+//           .social-list-item {
+//               margin-left: 16px;
+//           }
+//           img {
+//               width: 40px;
+//               height: 40px;
+//           }
+//       }
+//   }
+// }
+
+// @media (max-width:576px) {
+//   .footer {
+//       .footer-info {
+//           .menu {
+//               display: none;
+//           }
+//           img {
+//               width: 20px;
+//               height: 20px;
+//           }
+//           span {
+//               font-size: 24px;
+//           }
+//       }
+//       .social-list {
+//           .social-list-item {
+//               margin-left: 8px;
+//           }
+//           img {
+//               width: 24px;
+//               height: 24px;
+//           }
+//       }
+//       .copyright-section {
+//           flex-direction: column;
+//           p {
+//               margin-bottom: 8px;
+//           }
+//           .rule-list {
+//               flex-direction: column;
+//               li {
+//                   margin-left: 0px;
+//                   margin-bottom: 8px;
+//               }
+//           }
+//       }
+//   }
+// }

@@ -1,0 +1,10 @@
+.question {
+    padding-top: 96px;
+    padding-bottom: 80px;
+    .answer-format {
+        width: 66.6%;
+        @include pad {
+            width: 100%;
+        }
+    }
+}

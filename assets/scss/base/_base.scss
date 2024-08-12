@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;  // 盡量撐滿父容器，但同時不超過圖片本身大小
+    height: auto;
+    vertical-align: middle;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}

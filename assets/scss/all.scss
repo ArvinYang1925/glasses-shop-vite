@@ -1,0 +1,13 @@
+@import './base/reset.scss';
+@import './base/base.scss';
+
+@import './helper/mixins.scss';
+@import './helper/utils.scss';
+
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+@import "./components/buttons";
+
+@import './pages/index.scss';
+@import './pages/question.scss';
