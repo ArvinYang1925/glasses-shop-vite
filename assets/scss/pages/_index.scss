@@ -2,7 +2,6 @@
   font-size: 100px;
 }
 
-
 .banner {
   background-image: url(../assets/images/home-header.png);
   background-size: cover;
@@ -24,8 +23,54 @@
   }
 }
 
-// @media (max-width: 576px) {
-//   .banner {
-//       background-image: url(../assets/images/home-header-sm.png);
+.service {
+  background: #FBF2F2;
+  padding: 80px 0;
+  .card-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .card-item {
+          width: calc(25% - 18px);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .card-item-icon {
+              width: 100px;
+              height: 100px;
+          }
+          @include pad {
+            width: calc(50% - 12px);
+          }
+          @include mobile {
+            width: 100%;
+              h3 {
+                  font-size: 24px;
+              }
+          }
+      }
+  }
+}
+
+// @media (max-width:992px) {
+//   .service {
+//       .card-list {
+//           .card-item {
+//               width: calc(50% - 12px);
+//           }
+//       }
+//   }
+// }
+
+// @media (max-width:576px) {
+//   .service {
+//       .card-list {
+//           .card-item {
+//               width: 100%;
+//               h3 {
+//                   font-size: 24px;
+//               }
+//           }
+//       }
 //   }
 // }
