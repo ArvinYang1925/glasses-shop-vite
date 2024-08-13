@@ -1,6 +1,6 @@
 
 .banner {
-  background-image: url(../assets/images/home-header.png);
+  background-image: url(../../assets/images/home-header.png);
   background-size: cover;
   background-position: center;
   height: calc(100vh - 80px);
@@ -16,7 +16,7 @@
       align-items: flex-end;
   }
   @include mobile {
-    background-image: url(../assets/images/home-header-sm.png);
+    background-image: url(../../assets/images/home-header-sm.png);
   }
 }
 
